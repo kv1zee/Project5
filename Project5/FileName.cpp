@@ -25,14 +25,10 @@ public:
         cout << "Model: " << model << "\tColor: " << color << "\tPrice: " << price << endl;
     }
 
-    Laptop() {
-        delete[] model;
-        delete[] color;
-    }
 };
 
 int main() {
-    Laptop obj1("LENOVO", "BLACK", 55000);
+    Laptop obj1("APPLE", "WHITE", 70000);
     Laptop obj2("ASUS", "SILVER", 65000);
 
     obj1.Print();
